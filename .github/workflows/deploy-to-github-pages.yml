@@ -1,4 +1,4 @@
-on: [issues, push]
+on: [issues, push, workflow_dispatch]
 name: Deploy to GitHub Pages
 jobs:
   build:
